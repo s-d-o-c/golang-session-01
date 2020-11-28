@@ -7,6 +7,8 @@ import (
 )
 
 func sum(from, to int) int {
+	fmt.Println("sum()  args => from: ", from, " to: ", to)
+
 	res := 0
 	for i := from; i <= to; i++ {
 		res += i
